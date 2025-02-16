@@ -1,2 +1,9 @@
-
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:space-between;
+	 flex-wrap: wrap; /* Allows items to move to the next row if needed */   
+}
+.item{
+	width:30vw;
+}
